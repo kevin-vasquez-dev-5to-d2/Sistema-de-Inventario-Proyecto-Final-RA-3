@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Description></Description>
+  <Author></Author>
+  <PageHeight>8.5in</PageHeight>
+  <PageWidth>11in</PageWidth>
+  <Width>7.5in</Width>
+  <TopMargin>0.5in</TopMargin>
+  <LeftMargin>0.5in</LeftMargin>
+  <RightMargin>0.5in</RightMargin>
+  <BottomMargin>0.5in</BottomMargin>
+  <DataSources>
+    <DataSource Name="DataSource1">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DETALLE_MOVIMIENTOS">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="tipo_movimiento">
+          <DataField>tipo_movimiento</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="nombre_producto">
+          <DataField>nombre_producto</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="cantidad">
+          <DataField>cantidad</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="fecha_movimiento">
+          <DataField>fecha_movimiento</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="usuario">
+          <DataField>usuario</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="proveedor">
+          <DataField>proveedor</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Body>
+    <ReportItems>
+      <Textbox Name="title1">
+        <CanGrow>true</CanGrow>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Reporte de Movimiento de Inventario</Value>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <FontSize>16pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+          </Paragraph>
+        </Paragraphs>
+        <Top>0.1in</Top>
+        <Left>0.1in</Left>
+        <Height>0.4in</Height>
+        <Width>7.3in</Width>
+      </Textbox>
+      <Table Name="table1">
+        <DataSetName>DETALLE_MOVIMIENTOS</DataSetName>
+        <Top>0.6in</Top>
+        <Left>0.1in</Left>
+        <Height>2.5in</Height>
+        <Width>7.3in</Width>
+        <TableColumns>
+          <TableColumn><Width>1.1in</Width></TableColumn>
+          <TableColumn><Width>1.5in</Width></TableColumn>
+          <TableColumn><Width>0.8in</Width></TableColumn>
+          <TableColumn><Width>1.2in</Width></TableColumn>
+          <TableColumn><Width>1in</Width></TableColumn>
+          <TableColumn><Width>1.7in</Width></TableColumn>
+        </TableColumns>
+        <TableRows>
+          <TableRow>
+            <Height>0.3in</Height>
+            <TableCells>
+              <TableCell><ReportItems><Textbox Name="h1"><Value>Tipo</Value><Style><FontWeight>Bold</FontWeight><BackgroundColor>Silver</BackgroundColor><BorderStyle><Default>Solid</Default></BorderStyle><PaddingLeft>2pt</PaddingLeft><PaddingRight>2pt</PaddingRight></Style></Textbox></ReportItems></TableCell>
+              <TableCell><ReportItems><Textbox Name="h2"><Value>Producto</Value><Style><FontWeight>Bold</FontWeight><BackgroundColor>Silver</BackgroundColor><BorderStyle><Default>Solid</Default></BorderStyle><PaddingLeft>2pt</PaddingLeft><PaddingRight>2pt</PaddingRight></Style></Textbox></ReportItems></TableCell>
+              <TableCell><ReportItems><Textbox Name="h3"><Value>Cantidad</Value><Style><FontWeight>Bold</FontWeight><BackgroundColor>Silver</BackgroundColor><BorderStyle><Default>Solid</Default></BorderStyle><PaddingLeft>2pt</PaddingLeft><PaddingRight>2pt</PaddingRight></Style></Textbox></ReportItems></TableCell>
+              <TableCell><ReportItems><Textbox Name="h4"><Value>Fecha</Value><Style><FontWeight>Bold</FontWeight><BackgroundColor>Silver</BackgroundColor><BorderStyle><Default>Solid</Default></BorderStyle><PaddingLeft>2pt</PaddingLeft><PaddingRight>2pt</PaddingRight></Style></Textbox></ReportItems></TableCell>
+              <TableCell><ReportItems><Textbox Name="h5"><Value>Usuario</Value><Style><FontWeight>Bold</FontWeight><BackgroundColor>Silver</BackgroundColor><BorderStyle><Default>Solid</Default></BorderStyle><PaddingLeft>2pt</PaddingLeft><PaddingRight>2pt</PaddingRight></Style></Textbox></ReportItems></TableCell>
+              <TableCell><ReportItems><Textbox Name="h6"><Value>Proveedor</Value><Style><FontWeight>Bold</FontWeight><BackgroundColor>Silver</BackgroundColor><BorderStyle><Default>Solid</Default></BorderStyle><PaddingLeft>2pt</PaddingLeft><PaddingRight>2pt</PaddingRight></Style></Textbox></ReportItems></TableCell>
+            </TableCells>
+          </TableRow>
+          <TableRow>
+            <Height>0.3in</Height>
+            <TableCells>
+              <TableCell><ReportItems><Textbox Name="f1"><Value>=Fields!tipo_movimiento.Value</Value><CanGrow>true</CanGrow><Style><BorderStyle><Default>Solid</Default></BorderStyle><PaddingLeft>2pt</PaddingLeft><PaddingRight>2pt</PaddingRight></Style></Textbox></ReportItems></TableCell>
+              <TableCell><ReportItems><Textbox Name="f2"><Value>=Fields!nombre_producto.Value</Value><CanGrow>true</CanGrow><Style><BorderStyle><Default>Solid</Default></BorderStyle><PaddingLeft>2pt</PaddingLeft><PaddingRight>2pt</PaddingRight></Style></Textbox></ReportItems></TableCell>
+              <TableCell><ReportItems><Textbox Name="f3"><Value>=Fields!cantidad.Value</Value><CanGrow>true</CanGrow><Style><BorderStyle><Default>Solid</Default></BorderStyle><PaddingLeft>2pt</PaddingLeft><PaddingRight>2pt</PaddingRight></Style></Textbox></ReportItems></TableCell>
+              <TableCell><ReportItems><Textbox Name="f4"><Value>=Fields!fecha_movimiento.Value</Value><CanGrow>true</CanGrow><Style><BorderStyle><Default>Solid</Default></BorderStyle><PaddingLeft>2pt</PaddingLeft><PaddingRight>2pt</PaddingRight></Style></Textbox></ReportItems></TableCell>
+              <TableCell><ReportItems><Textbox Name="f5"><Value>=Fields!usuario.Value</Value><CanGrow>true</CanGrow><Style><BorderStyle><Default>Solid</Default></BorderStyle><PaddingLeft>2pt</PaddingLeft><PaddingRight>2pt</PaddingRight></Style></Textbox></ReportItems></TableCell>
+              <TableCell><ReportItems><Textbox Name="f6"><Value>=Fields!proveedor.Value</Value><CanGrow>true</CanGrow><Style><BorderStyle><Default>Solid</Default></BorderStyle><PaddingLeft>2pt</PaddingLeft><PaddingRight>2pt</PaddingRight></Style></Textbox></ReportItems></TableCell>
+            </TableCells>
+          </TableRow>
+        </TableRows>
+      </Table>
+    </ReportItems>
+  </Body>
+</Report>
