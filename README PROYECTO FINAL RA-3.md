@@ -25,7 +25,7 @@ Aquí se muestra el formulario donde el usuario inicia sesión en el sistema.
 
 **2. Gestión de Usuarios**
 En esta parte se pueden crear y administrar los usuarios del sistema.
-![Usuarios](AQUI_TU_IMAGEN_USUARIOS)
+![Usuarios](https://github.com/kevin-vasquez-dev-5to-d2/Sistema-de-Inventario-Proyecto-Final-RA-3/blob/368ff06df55c57ef8481e66479633152d348ea51/Imagenes%20proyecto%20inventario/Usuarios.png)
 
 ---
 
