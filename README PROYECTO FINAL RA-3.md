@@ -19,7 +19,7 @@ Este proyecto consiste en una aplicación de escritorio desarrollada en C# que p
 
 **1. Inicio de Sesión**
 Aquí se muestra el formulario donde el usuario inicia sesión en el sistema.
-![Login](AQUI_TU_IMAGEN_LOGIN)
+![Login](https://github.com/kevin-vasquez-dev-5to-d2/Sistema-de-Inventario-Proyecto-Final-RA-3/blob/61291760b2c2450c09e0969b755d95e5972d9ac4/Imagenes%20proyecto%20inventario/Login.png)
 
 ---
 
