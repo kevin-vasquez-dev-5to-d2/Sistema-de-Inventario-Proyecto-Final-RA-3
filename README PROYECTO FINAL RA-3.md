@@ -72,15 +72,10 @@ Se muestra un reporte con los Movimientos realizados.
 ---
 
 **10. Gestion de Movimientos**
-En esta sección se Muestran los Movimientos ya creados anteriormente.
+En esta sección se Muestran los Movimientos ya creados anteriormente y en base a estos se crean reportes.
 ![DetalleM](AQUI_TU_IMAGEN_GESTION)
 
 ---
-
-**11. Reporte en base a Movimientos ya creados**
-Seleccionando cualquier Movimiento dependiendo de si es de entrada o salida, se genera un reporte de ese movimiento.
-![ReporteMCreado](AQUI_TU_IMAGEN_REPORTE)
-
 
 
 
