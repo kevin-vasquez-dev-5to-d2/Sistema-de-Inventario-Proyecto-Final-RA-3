@@ -31,7 +31,7 @@ En esta parte se pueden crear y administrar los usuarios del sistema.
 
 **3. Gestión de Categorías**
 Se utilizan para organizar los productos dentro del sistema.
-![Categorias](AQUI_TU_IMAGEN_CATEGORIAS)
+![Categorias](https://github.com/kevin-vasquez-dev-5to-d2/Sistema-de-Inventario-Proyecto-Final-RA-3/blob/03d87d02cb597ced136b77d3716e124c8c1da9a4/Imagenes%20proyecto%20inventario/Categorias.png)
 
 ---
 
