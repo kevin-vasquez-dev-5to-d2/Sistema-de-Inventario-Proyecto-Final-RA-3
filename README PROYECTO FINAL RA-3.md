@@ -37,43 +37,47 @@ Se utilizan para organizar los productos dentro del sistema.
 
 **4. Gestión de Productos**
 Aquí se registran y controlan los productos junto con su stock.
-![Productos](AQUI_TU_IMAGEN_PRODUCTOS)
+![Productos](https://github.com/kevin-vasquez-dev-5to-d2/Sistema-de-Inventario-Proyecto-Final-RA-3/blob/7be9f32863b6d1f3c83604d8e759f8c5def47b04/Imagenes%20proyecto%20inventario/Productos%20(2).png
+)
 
 ---
 
 **5. Gestión de Proveedores**
 Se registran los proveedores relacionados con los productos.
-![Proveedores](AQUI_TU_IMAGEN_PROVEEDORES)
+![Proveedores](https://github.com/kevin-vasquez-dev-5to-d2/Sistema-de-Inventario-Proyecto-Final-RA-3/blob/7be9f32863b6d1f3c83604d8e759f8c5def47b04/Imagenes%20proyecto%20inventario/Proveedores.png
+)
 
 ---
 
 **6. Gestión de Clientes**
 Permite almacenar la información de los clientes.
-![Clientes](AQUI_TU_IMAGEN_CLIENTES)
+![Clientes](https://github.com/kevin-vasquez-dev-5to-d2/Sistema-de-Inventario-Proyecto-Final-RA-3/blob/7be9f32863b6d1f3c83604d8e759f8c5def47b04/Imagenes%20proyecto%20inventario/Clientes.png)
 
 ---
 
 **7. Registro de Entradas**
 Aquí se registran los productos que ingresan al inventario.
-![Entradas](AQUI_TU_IMAGEN_ENTRADAS)
+![Entradas](https://github.com/kevin-vasquez-dev-5to-d2/Sistema-de-Inventario-Proyecto-Final-RA-3/blob/7be9f32863b6d1f3c83604d8e759f8c5def47b04/Imagenes%20proyecto%20inventario/Registro%20de%20Entradas.png
+)
 
 ---
 
 **8. Registro de Salidas**
 En esta sección se registran los productos que salen del inventario.
-![Salidas](AQUI_TU_IMAGEN_SALIDAS)
+![Salidas](https://github.com/kevin-vasquez-dev-5to-d2/Sistema-de-Inventario-Proyecto-Final-RA-3/blob/7be9f32863b6d1f3c83604d8e759f8c5def47b04/Imagenes%20proyecto%20inventario/Registro%20de%20salidas.png
+)
 
 ---
 
 **9. Reporte de Movimientos**
 Se muestra un reporte con los Movimientos realizados.
-![Reporte](AQUI_TU_IMAGEN_REPORTE)
+![Reporte]()
 
 ---
 
 **10. Gestion de Movimientos**
 En esta sección se Muestran los Movimientos ya creados anteriormente y en base a estos se crean reportes.
-![DetalleM](AQUI_TU_IMAGEN_GESTION)
+![DetalleM](https://github.com/kevin-vasquez-dev-5to-d2/Sistema-de-Inventario-Proyecto-Final-RA-3/blob/7be9f32863b6d1f3c83604d8e759f8c5def47b04/Imagenes%20proyecto%20inventario/DetalleM.png)
 
 ---
 
