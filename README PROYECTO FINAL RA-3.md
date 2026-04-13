@@ -71,7 +71,7 @@ En esta sección se registran los productos que salen del inventario.
 
 **9. Reporte de Movimientos**
 Se muestra un reporte con los Movimientos realizados.
-![Reporte]()
+![Reporte](https://github.com/kevin-vasquez-dev-5to-d2/Sistema-de-Inventario-Proyecto-Final-RA-3/blob/42b0730ae4cfed145cd82de08a3d0c644ed10893/Imagenes%20proyecto%20inventario/Reporte%20(2).png)
 
 ---
 
